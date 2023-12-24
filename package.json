@@ -14,8 +14,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "dev-notepad.helloWorld",
-        "title": "Hello World"
+        "command": "dev-notepad.openGlobalNotes",
+        "title": "NoteManager: Open Global Notes"
+      },
+      {
+        "command": "dev-notepad.openWorkspaceNotes",
+        "title": "NoteManager: Open Workspace Notes"
+      },
+      {
+        "command": "dev-notepad.openRepoNotes",
+        "title": "NoteManager: Open Repo Notes"
+      },
+      {
+        "command": "dev-notepad.openBranchNotes",
+        "title": "NoteManager: Open Branch Notes"
       }
     ]
   },
